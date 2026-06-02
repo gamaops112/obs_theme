@@ -25,7 +25,7 @@ import NotFoundPage from './pages/NotFoundPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/obs_theme/app">
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
