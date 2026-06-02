@@ -3,10 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>obsAdmin — Observability Platform UI Theme</title>
+
+  <!-- Primary SEO -->
+  <title>obsAdmin — Free Open-Source Observability Dashboard &amp; Monitoring UI Theme</title>
+  <meta name="description" content="A free, open-source React dashboard for observability and monitoring. Dark &amp; light themes, logs explorer, metrics, traces, APM, alerts, incidents, and synthetics. Built with MUI v9, ECharts, TypeScript. Ready to deploy." />
+  <meta name="keywords" content="observability dashboard, monitoring UI, React dashboard theme, open source observability, MUI theme, dark theme dashboard, logs explorer, metrics dashboard, APM UI, alerting dashboard, ECharts dashboard, free monitoring template, React observability, TypeScript dashboard, Vite dashboard, infrastructure monitoring UI, DevOps dashboard" />
+  <meta name="author" content="obsAdmin" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://gamaops112.github.io/obs_theme/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gamaops112.github.io/obs_theme/" />
+  <meta property="og:title" content="obsAdmin — Open-Source Observability Dashboard UI Theme" />
+  <meta property="og:description" content="Production-ready React dashboard for monitoring infrastructure. Dark-first theme, 13 page modules, 98 components. Logs, metrics, traces, APM, alerts &amp; more." />
+  <meta property="og:image" content="https://gamaops112.github.io/obs_theme/screenshots/Dashboard.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="obsAdmin" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://gamaops112.github.io/obs_theme/" />
+  <meta name="twitter:title" content="obsAdmin — Open-Source Observability Dashboard" />
+  <meta name="twitter:description" content="Free React dashboard for logs, metrics, traces, APM &amp; alerts. Dark/light theme, MUI v9, ECharts." />
+  <meta name="twitter:image" content="https://gamaops112.github.io/obs_theme/screenshots/Dashboard.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "obsAdmin",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "description": "Open-source observability platform UI built with React, TypeScript, and MUI v9. Includes dashboard, logs explorer, metrics, traces, APM, alerts, incidents, and synthetics monitoring pages.",
+    "url": "https://gamaops112.github.io/obs_theme/",
+    "license": "https://opensource.org/licenses/MIT",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Organization", "name": "obsAdmin" },
+    "featureList": "Dark/light themes, 13 page modules, log explorer with Monaco editor, metrics dashboard with ECharts, distributed tracing waterfall, alerting & incident management, synthetic monitors, user management, 98 reusable components"
+  }
+  </script>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="app/favicon.svg" />
+
+  <title>obsAdmin — Free Open-Source Observability Dashboard &amp; Monitoring UI Theme</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -298,7 +348,7 @@
     </p>
     <div class="hero-buttons">
       <a href="app/index.html" class="btn btn-primary">&#9654; Launch Demo</a>
-      <a href="https://github.com/obsadmin/obsadmin" class="btn btn-outline">&#8599; View on GitHub</a>
+      <a href="https://github.com/gamaops112/obs_theme/tree/main/obsAdmin" class="btn btn-outline">&#9733; Star on GitHub</a>
     </div>
   </div>
 
@@ -318,31 +368,31 @@
     <p class="section-desc">Every page built with precision. Dark-mode optimized, responsive, and ready to deploy.</p>
     <div class="screenshot-grid">
       <div class="screenshot-card">
-        <img src="screenshots/Dashboard.png" alt="Dashboard" loading="lazy" />
+        <img src="screenshots/Dashboard.png" alt="obsAdmin Dashboard — observability platform with colored metric cards, stat tiles, and time series charts" loading="lazy" />
         <div class="caption"><strong>Dashboard</strong> — Colored metric cards, stat tiles, time series, service map</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/logs.png" alt="Logs Explorer" loading="lazy" />
+        <img src="screenshots/logs.png" alt="obsAdmin Logs Explorer — virtualized log table with histogram, Monaco query editor, and live tail" loading="lazy" />
         <div class="caption"><strong>Logs Explorer</strong> — Virtualized table, histogram, Monaco editor, live tail</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/metrics.png" alt="Metrics" loading="lazy" />
+        <img src="screenshots/metrics.png" alt="obsAdmin Metrics — infrastructure monitoring with host tables, CPU progress bars, and metrics explorer" loading="lazy" />
         <div class="caption"><strong>Metrics &amp; Infrastructure</strong> — Host tables, progress bars, metrics explorer</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/traces.png" alt="Traces" loading="lazy" />
+        <img src="screenshots/traces.png" alt="obsAdmin Traces &amp; APM — span waterfall visualization, service map, and latency percentile charts" loading="lazy" />
         <div class="caption"><strong>Traces &amp; APM</strong> — Span waterfall, service map, latency percentiles</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/alerts.png" alt="Alerts" loading="lazy" />
+        <img src="screenshots/alerts.png" alt="obsAdmin Alerts — firing alerts table, alert rules management, and notification channels" loading="lazy" />
         <div class="caption"><strong>Alerts</strong> — Firing alerts table, alert rules, notification channels</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/monitors.png" alt="Synthetics" loading="lazy" />
+        <img src="screenshots/monitors.png" alt="obsAdmin Synthetics — uptime monitors, status page, and 90-day availability grid" loading="lazy" />
         <div class="caption"><strong>Synthetics</strong> — Monitors, status page, 90-day uptime grid</div>
       </div>
       <div class="screenshot-card">
-        <img src="screenshots/intirgations.png" alt="Integrations" loading="lazy" />
+        <img src="screenshots/intirgations.png" alt="obsAdmin Integrations — connect Prometheus, Loki, Tempo, Slack, PagerDuty and more" loading="lazy" />
         <div class="caption"><strong>Integrations</strong> — Connect Prometheus, Loki, Tempo, Slack, PagerDuty</div>
       </div>
     </div>
@@ -396,8 +446,15 @@
 
   <!-- ════════════ FOOTER ════════════ -->
   <footer>
-    <p>obsAdmin &mdash; MIT License &bull; <a href="https://github.com/obsadmin/obsadmin" class="cyan-link">GitHub</a></p>
-    <p style="margin-top:4px">Built with React 19 &bull; MUI v9 &bull; TypeScript &bull; Vite &bull; ECharts</p>
+    <p><strong>obsAdmin</strong> &mdash; MIT License &bull; Free &amp; Open Source</p>
+    <p style="margin:8px 0">
+      <a href="https://github.com/gamaops112/obs_theme/tree/main/obsAdmin" class="cyan-link">&#9733; Star on GitHub</a>
+      &nbsp;&bull;&nbsp;
+      <a href="https://github.com/gamaops112/obs_theme/tree/main/obsAdmin" class="cyan-link">View Source Code</a>
+      &nbsp;&bull;&nbsp;
+      <a href="app/index.html" class="cyan-link">Launch Demo</a>
+    </p>
+    <p style="margin-top:4px;color:#4d566b">Built with React 19 &bull; MUI v9 &bull; TypeScript &bull; Vite &bull; ECharts</p>
   </footer>
 
 </body>
