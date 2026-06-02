@@ -5,11 +5,13 @@ A production-ready React dashboard for observability, monitoring, and incident m
 ## Quick Start
 
 ```bash
-git clone https://github.com/obsadmin/obsadmin.git
-cd obsAdmin
+git clone https://github.com/gamaops112/obs_theme.git
+cd obs_theme/obsAdmin
 npm install
 npm run dev
 ```
+
+**[&#9654; Live Demo](https://gamaops112.github.io/obs_theme/)** — Try it now. Demo credentials pre-filled.
 
 ![obsAdmin Dashboard](screenshots/Dashboard.png)
 
